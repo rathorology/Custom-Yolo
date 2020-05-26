@@ -1,0 +1,10 @@
+
+
+python3 ground_truth_data_generator.py
+
+python3 test_inference.py --config yolov3-tiny-custom.cfg --weights ../backup/yolov3-tiny-custom_20000.weights --names custom.names 
+
+python3 scripts/extra/intersect-gt-and-dr.py
+
+python3 mAp_calculator.py
+
