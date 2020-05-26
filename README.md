@@ -52,6 +52,8 @@ python3 custom_data/mAp_calculator.py
 ```
 python3 custom_data/detection.py
 ```
+![Screenshot](custom_data/test.jpeg)
+
 ![Screenshot](custom_data/output/result.jpg)
 
 * Result Plots 
