@@ -5,11 +5,12 @@ import cv2
 import numpy as np
 
 parser = argparse.ArgumentParser(add_help=False)
-parser.add_argument("--image", default='samples/image.jpg', help="image for prediction")
-parser.add_argument("--config", default='cfg/yolov3.cfg', help="YOLO config path")
-parser.add_argument("--weights", default='yolov3.weights', help="YOLO weights path")
-parser.add_argument("--names", default='data/coco.names', help="class names path")
+parser.add_argument("--image", default='custom_data/test.jpeg', help="image for prediction")
+parser.add_argument("--config", default='custom_data/yolov3-tiny-custom.cfg', help="YOLO config path")
+parser.add_argument("--weights", default='backup/yolov3-tiny-custom_30000.weights', help="YOLO weights path")
+parser.add_argument("--names", default='custom_data/custom.names', help="class names path")
 args = parser.parse_args()
+
 
 CONF_THRESH, NMS_THRESH = 0.5, 0.5
 
