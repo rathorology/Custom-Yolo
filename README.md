@@ -61,3 +61,12 @@ python3 custom_data/detection.py
 custom_data/output
 ```
 ![Screenshot](custom_data/output/mAP.png)
+
+## Metrics #
+### mAp:-
+
+* The mAP for object detection is the average of the AP calculated for all the classes. It helps to determine how close we are in determining object and its position. It has flexibility to set threshold according to use our use case.
+
+### 0ther metrics used in Object detection:-
+
+* Precision x Recall curve
