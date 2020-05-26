@@ -6,6 +6,11 @@
 
 * Classes name :- F(Face),H & M (Helmet & Mask), M (Mask) ,H (Helmet)
 
+## Requiremets #
+```
+pip install -r requirements.txt
+```
+
 ## Steps for object detection #
 * Step 1:-
 Converting xml to YoloV3 format
@@ -47,8 +52,10 @@ python3 custom_data/mAp_calculator.py
 ```
 python3 custom_data/detection.py
 ```
+![Screenshot](custom_data/output/result.jpg)
 
 * Result Plots 
 ```
 custom_data/output
 ```
+![Screenshot](custom_data/output/mAP.png)
